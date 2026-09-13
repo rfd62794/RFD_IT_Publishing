@@ -6,6 +6,16 @@
 > `itch_publisher`, command `itch-publisher`). This repo's full commit history
 > was merged there. Please make changes in RFDGameStudio, not here.
 
+## Portfolio notes
+
+A small, focused tool (May – September 2026, 6 commits, 13 unit tests): a
+Python CLI that publishes game builds to itch.io through butler, driven by a
+per-game YAML config. Its design paid off at retirement — it had no dependency
+on its callers, so it moved into RFDGameStudio with its full history as a
+self-contained package that can still be split back out (see below).
+
+Licensed under the MIT License (see `LICENSE`).
+
 ## Where things went
 
 | In this repo | In RFDGameStudio |
